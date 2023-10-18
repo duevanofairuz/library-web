@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+:root{
+    --main-font: 'Montserrat', sans-serif;
+
+    --white-color: #EAEAEA;
+    --cream-color: #FAF3E0;
+    --grey-color: #2c2c32;
+    --black-color: #19191C;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    font-family: var(--main-font);
+}
+
+section{
+    margin: 80px 120px;
+}
+
+nav{
+    padding: 0 120px;
+    height: 128px;
+    background-color: var(--black-color);
+    color: var(--cream-color);
+}
+
+.logo a{
+    font-size: 24px;
+}
+
+.nav-menu{
+    margin-left: 128px;
+}
+
+.nav-menu a{
+    color: var(--cream-color);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.nav-menu .drop ul{
+    background-color: var(--grey-color);
+    color: var(--black-color);
+}
+
+.landingimg{
+    margin: 0;
+    padding: 0;
+}
+
+.btn-regis{
+    background-color: var(--white-color);
+    color: var(--black-color);
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.landing-wrapper{
+    position: absolute;
+    top: 360px;
+    left: 500px;
+}
+
+.landing-wrapper .title{
+    /* background-color: black; */
+    color: var(--white-color);
+}
+
+.landing-wrapper p{
+    /* background-color: cyan; */
+    font-weight: 500;
+    font-size: 24px;
+    color: var(--white-color);
+}
+
+.layanan-wrapper{
+    gap: 56px;
+    margin-top: 10px;
+}
+
+#S2 .title{
+    font-weight: 500;
+    font-size: 48px;
+    color: var(--grey-color);
+}
+
+.layanan-menu a{
+    text-decoration: none;
+    color: var(--grey-color);
+    font-weight: 500;
+    font-size: 24px;
+}
+
+#S3{
+    height: 800px;
+    /* width: 1440px; */
+    background-color: var(--grey-color);
+    margin: 0;
+}
+
+#S3 .title{
+    font-weight: 500;
+    font-size: 48px;
+    color: var(--cream-color);
+    padding-top: 40px;
+    padding-left: 120px;
+    /* background-color: red; */
+}
+
+.btn-opsisel{
+    background-color: var(--black-color);
+    color: var(--cream-color);
+    padding: 15px 20px;
+    font-weight: 500;
+    font-size: 24px;
+    
+}
+.btn-opsisel:hover{
+    color: var(--cream-color);
+    box-shadow: 10px 10px 5px 0px rgba(250,243,224,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(250,243,224,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(250,243,224,0.75);
+}
+
+.pilihan-wrapper .btn-opsisel{
+    background-color: var(--grey-color);
+}
+
+#S3 .card{
+    background-color: transparent;
+    border-color: transparent;
+    color: var(--cream-color);
+}
+
+.buku-wrapper{
+    width: 384px;
+    margin-top: 48px;
+    /* margin-left: 120px; */
+}
+
+.deskripsi a{
+    padding: 0;
+    text-decoration: none;
+    color: var(--cream-color);
+    font-size: 16px;
+    /* background-color: red; */
+}
+
+.deskripsi p{
+    text-align: justify;
+    color: var(--cream-color);
+}
+
+#S4 .title{
+    font-size: 48px;
+}
+
+.koleksiberita{
+    gap: 128px;
+}
+
+.koleksiberita p{
+    font-size: 14px;
+}
+
+.koleksiberita .card a{
+    color: var(--white-color);
+    background-color: var(--grey-color);
+}
+
+#S5{
+    width: 1200px;
+}
+
+#S5 .title{
+    font-size: 48px;
+}
+
+footer{
+    color: var(--cream-color);
+    height: 120px;
+    background-color: var(--black-color);
+}

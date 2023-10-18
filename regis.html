@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibPerpus Registration</title>
+    <link rel="stylesheet" href="styleregis.css">
+    <script src="appregis.js"></script>
+</head>
+<body>
+    <section>
+        <div class="logo"><h1>Registrasi Anggota LibPerpus</h1></div>
+        <form name="frs" onsubmit="return validate()" action="https://my.its.ac.id/" method="post">
+            <div class="title"><a>Nama</a></div>
+            <input maxlength="50" minlength="1" type="text" name="Nama" placeholder="Nama Lengkap">
+
+            <div class="title"><a>NRP</a></div>
+            <input maxlength="20" minlength="10" type="nrp" name="NRP" placeholder="NRP">
+
+            <div class="title"><a>Nomor Telepon</a></div>
+            <input maxlength="20" minlength="10" type="nrp" name="NO" placeholder="081234567890">
+
+            <div class="title"><a>Email</a></div>
+            <input maxlength="50" minlength="1" type="text" name="Email" placeholder="yyy@domain.com">
+
+            <input type="submit" value="Submit">
+          </form>
+    </section>
+</body>
+</html>

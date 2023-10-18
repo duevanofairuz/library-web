@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LibPerpus</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"/>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="d-flex justify-content-center align-items-center">
+        <div class="logo d-flex align-items-center">
+            <img src="./assets/itsputih.svg" alt="">
+            <a>LibPerpus</a>
+        </div>
+        <div class="nav-menu d-flex gap-5">
+            <a href="#" class="">Beranda</a>
+            <a href="#S5">Tentang Kami</a>
+            <div class="drop">
+                <a href="" class="" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Layanan</a>
+                <img src="./assets/dropdownputih.svg" alt="">
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Customer Service</a></li>
+                    <li><a class="dropdown-item" href="#">Peminjaman Buku</a></li>
+                    <li><a class="dropdown-item" href="#">Jasa Delivery</a></li>
+                </ul>
+            </div>
+            <div class="drop">
+                <a href="" class="" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">Kegiatan</a>
+                <img src="./assets/dropdownputih.svg" alt="">
+
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item" href="#">Charity</a></li>
+                    <li><a class="dropdown-item" href="#">Abdi Masyarakat</a></li>
+                    <li><a class="dropdown-item" href="#">Workshop</a></li>
+                </ul>
+            </div>
+            <a href="#S3">Koleksi</a>
+            <a href="#S4">Berita</a>
+        </div>
+    </nav>
+
+    <img src="./assets/landing.png" alt="" class="landingimg w-100">
+    <section id="S1">
+        <div class="landing-wrapper d-flex flex-column align-items-center">
+            <a href="" class="title" style="text-decoration: none; font-weight: 500; font-size: 64px;">LibPerpus</a>
+            <p>Ilmu Pengetahuan ada dimana-mana</p>
+            <a class="btn-regis btn d-flex justify-content-center align-items-center gap-3" href="regis.html" role="button" style="width: 320px; border-radius: 10px;">
+                <img src="./assets/user.svg" alt="">Registrasi Anggota</a>
+        </div>
+    </section>
+    
+    <section id="S2">
+        <a class="title" href="" style="text-decoration: none;">Layanan Perpustakaan Online</a>
+        <div style="width: 1200px; height: 6px; background-color: var(--grey-color); border-radius: 10px;"></div>
+        <div class="layanan-wrapper d-flex justify-content-center">
+            <div class="layanan-menu d-flex flex-column align-items-center">
+                <img src="./assets/cs.svg" alt="" width="100px">
+                <a href="">Ask A Lib</a>
+            </div>
+            <div class="layanan-menu d-flex flex-column align-items-center">
+                <img src="./assets/vpn.svg" alt="" width="100px">
+                <a href="">Open VPN</a>
+            </div>
+            <div class="layanan-menu d-flex flex-column align-items-center">
+                <img src="./assets/book1.svg" alt="" width="100px">
+                <a href="">Book Order</a>
+            </div>
+            <div class="layanan-menu d-flex flex-column align-items-center">
+                <img src="./assets/book2.svg" alt="" width="100px">
+                <a href="">Extension</a>
+            </div>
+            <div class="layanan-menu d-flex flex-column align-items-center">
+                <img src="./assets/monitor.svg" alt="" width="100px">
+                <a href="">Information</a>
+            </div>
+            <div class="layanan-menu d-flex flex-column align-items-center">
+                <img src="./assets/delivery.svg" alt="" width="100px">
+                <a href="">Delivery</a>
+            </div>
+            <div class="layanan-menu d-flex flex-column align-items-center">
+                <img src="./assets/pustaka.svg" alt="" width="100px">
+                <a href="">Pustaka</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="S3">
+        <div class="title d-flex flex-column">
+            <a class="" href="" style="text-decoration: none; color: var(--cream-color);">Koleksi LibPerpus</a>
+            <div style="width: 1200px; height: 6px; background-color: var(--cream-color); border-radius: 10px;"></div>
+        </div>
+
+        <div class="opsi-wrapper d-flex justify-content-center mt-5 gap-3">
+            <a class="btn-opsisel btn d-flex justify-content-center align-items-center gap-3" href="#" role="button" style="width: 320px; border-radius: 20px;">
+                <img src="./assets/koleksidigital.svg" alt="">Registrasi Anggota</a>
+            <a class="btn-opsisel btn d-flex justify-content-center align-items-center gap-3" href="#" role="button" style="width: 320px; border-radius: 20px; background-color: var(--cream-color); color: var(--black-color);">
+                <img src="./assets/koleksidigital2.svg" alt="">Katalog</a>
+            <a class="btn-opsisel btn d-flex justify-content-center align-items-center gap-3" href="#" role="button" style="width: 320px; border-radius: 20px; background-color: var(--cream-color); color: var(--black-color);">
+                <img src="./assets/koleksidigital2.svg" alt="">Buku Baru</a>
+        </div>
+
+        <div class="pilihan-wrapper d-flex justify-content-center gap-3 mt-3">
+            <a class="btn-opsisel btn d-flex justify-content-center align-items-center gap-3" href="#" role="button" style="width: 386px; border-radius: 20px; color: var(--cream-color); border: 3px solid var(--cream-color);">
+                Repository</a>
+            <a class="btn-opsisel btn d-flex justify-content-center align-items-center gap-3" href="#" role="button" style="width: 386px; border-radius: 20px; color: var(--cream-color); border: 3px solid var(--cream-color);">
+                E - Journal</a>
+            <a class="btn-opsisel btn d-flex justify-content-center align-items-center gap-3" href="#" role="button" style="width: 386px; border-radius: 20px; color: var(--cream-color); border: 3px solid var(--cream-color);">
+                E - Book</a>
+        </div>
+
+        <div class="koleksibuku d-flex gap-5 justify-content-center">
+            <div class="buku-wrapper d-flex ">
+                <img src="./assets/btd.png" alt="">
+                <div class="deskripsi ms-3">
+                    <a href="" class="fw-medium">BERANI TIDAK DISUKAI</a>
+                    <p class="fw-normal mt-3">let your mind chill while living in our place.lorem ipsum dolor sit amet amet jabang bayi buka titik jos. minimal maksimal</p>
+                </div>
+            </div>
+            <div class="buku-wrapper d-flex ">
+                <img src="./assets/bumi.png" alt="">
+                <div class="deskripsi ms-3">
+                    <a href="" class="fw-medium">BUMI</a>
+                    <p class="fw-normal mt-3">let your mind chill while living in our place.lorem ipsum dolor sit amet amet jabang bayi buka titik jos. minimal maksimal</p>
+                </div>
+            </div>
+            <div class="buku-wrapper d-flex ">
+                <img src="./assets/matahari.png" alt="">
+                <div class="deskripsi ms-3">
+                    <a href="" class="fw-medium">MATAHARI</a>
+                    <p class="fw-normal mt-3">let your mind chill while living in our place.lorem ipsum dolor sit amet amet jabang bayi buka titik jos. minimal maksimal</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="koleksibuku d-flex gap-5 justify-content-center">
+            <div class="buku-wrapper d-flex ">
+                <img src="./assets/ah.png" alt="">
+                <div class="deskripsi ms-3">
+                    <a href="" class="fw-medium">ATOMIC HABITS</a>
+                    <p class="fw-normal mt-3">let your mind chill while living in our place.lorem ipsum dolor sit amet amet jabang bayi buka titik jos. minimal maksimal</p>
+                </div>
+            </div>
+            <div class="buku-wrapper d-flex ">
+                <img src="./assets/bulan.png" alt="">
+                <div class="deskripsi ms-3">
+                    <a href="" class="fw-medium">BULAN</a>
+                    <p class="fw-normal mt-3">let your mind chill while living in our place.lorem ipsum dolor sit amet amet jabang bayi buka titik jos. minimal maksimal</p>
+                </div>
+            </div>
+            <div class="buku-wrapper d-flex ">
+                <img src="./assets/siputih.png" alt="">
+                <div class="deskripsi ms-3">
+                    <a href="" class="fw-medium">SI PUTIH</a>
+                    <p class="fw-normal mt-3">let your mind chill while living in our place.lorem ipsum dolor sit amet amet jabang bayi buka titik jos. minimal maksimal</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="S4">
+        <div class="title d-flex flex-column">
+            <a class="fw-medium" href="" style="text-decoration: none; color: var(--grey-color);">Berita Terkini</a>
+            <div style="width: 1200px; height: 6px; background-color: var(--grey-color); border-radius: 10px;"></div>
+        </div>
+        <div class="koleksiberita d-flex justify-content-center mt-5">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/keluarga.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Keluarga yang harmonis pasti makan nya buku</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn fw-medium">View Details</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/prof.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Inovasi baterai terbaru berbahan air garam</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn fw-medium">View Details</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/lulus.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Lulus S1 Teknik Informatika jalur langit</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <a href="#" class="btn fw-medium">View Details</a>
+                    </div>
+                </div>
+        </div>
+        
+    </section>
+
+    <section id="S5">
+        <div class="title d-flex flex-column">
+            <a class="fw-medium" href="" style="text-decoration: none; color: var(--grey-color);">Lokasi Kami</a>
+            <div style="width: 1200px; height: 6px; background-color: var(--grey-color); border-radius: 10px;"></div>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.801120640426!2d112.742926674689!3d-7.263460771363719!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7f963d6b15f05%3A0x4aa167ad55b09e7a!2sPerpustakaan%20Umum%20Kota%20Surabaya!5e0!3m2!1sid!2sid!4v1697590770053!5m2!1sid!2sid" width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <footer>
+        <p class="d-flex justify-content-center pt-5 fw-medium">© LibPerpus 2023. All rights Reserved</p>
+    </footer>
+</body>
+</html>
